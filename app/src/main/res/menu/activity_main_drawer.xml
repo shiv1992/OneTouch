@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_us"
+            android:icon="@drawable/usnews"
+            android:title="US News"
+            />
+        <item
+            android:id="@+id/nav_world"
+            android:icon="@drawable/world"
+            android:title="World" />
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/buisness"
+            android:title="Business" />
+        <item
+            android:id="@+id/nav_technology"
+            android:icon="@drawable/technology"
+            android:title="Technology" />
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/sports"
+            android:title="Sports" />
+        <item
+            android:id="@+id/nav_fashion"
+            android:icon="@drawable/fashion"
+            android:title="Fashion" />
+
+    </group>
+
+</menu>
